@@ -17,7 +17,7 @@ about:
       text: GitHub
       href: https://github.com
     - icon: file-earmark-pdf
-      text: Resumé
+      text: Resumé 
       href: https://GITHUB_USERNAME.github.io/resume-example.pdf
     - icon: mailbox
       text: Email
