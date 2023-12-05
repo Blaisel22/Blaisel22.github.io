@@ -6,13 +6,20 @@ website:
   title: "Blaise Leone"
   navbar:
     pinned: true
-    left:
+      left:
       - text: Project
         href: project.qmd
       - text: Blog
         href: blog-listing.qmd
       - text: Template
         href: quarto-template-2.qmd
+      right:
+      - text: Project
+        href: project.qmd
+      - text: Blog
+        href: blog-listing.qmd
+      - text: Homeowrk
+        href: hw.qmd
   page-footer: 
     center: "Powered with GitHub and Quarto<br>© YOUR NAME, 2023"
 
