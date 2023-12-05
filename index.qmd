@@ -9,13 +9,13 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/blaise-leone-a170a6251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
     - icon: instagram
       text: Instagram
-      href: https://instagram.com
+      href: https://instagram.com/Blaiseleonee
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/Blaisel22
     - icon: file-earmark-pdf
       text: Resumé 
       href: https://GITHUB_USERNAME.github.io/resume-example.pdf
@@ -26,7 +26,7 @@ about:
 ---
 
 
-Blaise Leone majors in Business Administration at SUNY Geneseo. When not working on data analytics, Blaise enjoys spending time playing snowmobiling and boating
+Blaise Leone majors in Business Administration at SUNY Geneseo. When not working on data analytics,I enjoy spending time snowmobiling and boating
 
 ## Education
 
@@ -36,6 +36,6 @@ B.S. in Business Administration | Aug 2022 - May 2026 <br>
 
 ## Experience
 
-Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
+Gangster Analytics | Merchant activities| Drowning in swag since 03'
 
 

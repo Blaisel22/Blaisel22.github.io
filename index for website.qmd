@@ -9,10 +9,11 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/blaise-leone-a170a6251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+
     - icon: instagram
       text: Instagram
-      href: https://instagram.com
+      href: https://instagram.com/Blaiseleonee
     - icon: github
       text: GitHub
       href: https://github.com/Blaisel22
@@ -27,7 +28,7 @@ about:
 ---
 
 
-Blaise Leone majors in Business Administration at SUNY Geneseo. When not working on data analytics, Blaise enjoys spending time playing snowmobiling and boating
+Blaise Leone majors in Business Administration at SUNY Geneseo. When not working on data analytics, Blaise enjoys spending time snowmobiling and boating
 
 ## Education
 
