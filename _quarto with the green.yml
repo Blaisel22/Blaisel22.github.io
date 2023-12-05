@@ -13,13 +13,13 @@ website:
         href: blog-listing.qmd
       - text: template
         href: quarto-template-2.qmd
-      left:
-        - text: Project
+    right:
+      - text: Project
         href: project.qmd
-        - text: Blog
+      - text: Blog
         href: blog-listing.qmd
-        - text: Homeowrk
-         href: hw.qmd
+      - text: Homeowrk
+        href: hw.qmd
     
   page-footer: 
     center: "Powered with GitHub and Quarto<br>© YOUR NAME, 2023"

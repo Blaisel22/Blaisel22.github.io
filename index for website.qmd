@@ -22,6 +22,7 @@ about:
     - icon: mailbox
       text: Email
       href: mailto:Bpl7@geneseo.edu
+      
 
 ---
 
@@ -36,6 +37,6 @@ B.S. in Business Administration | Aug 2022 - May 2026 <br>
 
 ## Experience
 
-Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
+Gangster Analytics | Merchant activities  | Drowning in swag since 03 
 
 
