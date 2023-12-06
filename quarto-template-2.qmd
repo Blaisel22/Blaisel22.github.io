@@ -2,11 +2,11 @@
 title: "DANL 200: Introduction to Data Analytics<br>Project"
 subtitle: "Quarto Template<br><br>" 
 author: 
-  - name: Name 1
-    affiliations:
+  - name: Blaise Leone
+    affiliations: in charge of snacks for Choe
       - name: SUNY Geneseo
-  - name: Name 2
-    affiliations:
+  - name: Jake Marcel
+    affiliations: Group Leader
       - name: SUNY Geneseo
   - <br>
 date: "`r Sys.Date()`"
