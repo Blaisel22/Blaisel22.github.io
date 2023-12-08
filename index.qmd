@@ -18,7 +18,7 @@ about:
       href: https://github.com/Blaisel22
     - icon: file-earmark-pdf
       text: Resumé 
-      href: https://GITHUB_USERNAME.github.io/resume-example.pdf
+      href: https://Blaisel22.github.io/Resume.pdf
     - icon: mailbox
       text: Email
       href: mailto:bpl7@geneseo.edu
