@@ -33,7 +33,7 @@ theme_set(theme_ipsum()+
           )
 ```
 
-Let's analyze the `beer` data:
+Let's analyze the `inspection data` data:
 
 ```{r}
 beer <- read_csv("https://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspection.csv")
@@ -42,7 +42,7 @@ beer <- read_csv("https://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspection.
 
 ```{r}
 #| results: asis
-rmarkdown::paged_table(beer) 
+rmarkdown::paged_table(restaruant) 
 ```
 
 
