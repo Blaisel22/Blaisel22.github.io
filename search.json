@@ -207,6 +207,6 @@
     "href": "posts/beer/beer.html",
     "title": "beer",
     "section": "",
-    "text": "Let’s analyze the starwars data:\n\nbeer &lt;- read_csv(\"https://bcdanl.github.io/data/beer_markets.csv\")\n\nrmarkdown::paged_table(beer)"
+    "text": "Let’s analyze the beer data:\n\nbeer &lt;- read_csv(\"https://bcdanl.github.io/data/beer_markets.csv\")\n\nrmarkdown::paged_table(beer)"
   }
 ]

@@ -33,7 +33,7 @@ theme_set(theme_ipsum()+
           )
 ```
 
-Let's analyze the `starwars` data:
+Let's analyze the `beer` data:
 
 ```{r}
 beer <- read_csv("https://bcdanl.github.io/data/beer_markets.csv")
