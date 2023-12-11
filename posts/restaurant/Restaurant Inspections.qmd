@@ -12,6 +12,7 @@ execute:
   
 toc: true
 ---
+
 ```{r}
 #| include: false
 
@@ -34,18 +35,18 @@ theme_set(theme_ipsum()+
           )
 ```
 
-Let's analyze the `beer` data:
+Let's analyze the `Restaurnt_Inspection` data:
 
 ```{r}
 Restaurant inspections <- read_csv("https://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspection.csv")
 ```
 
-
 ```{r}
 #| results: asis
 rmarkdown::paged_table(Restaurant_Inspection) 
 ```
----
+
+------------------------------------------------------------------------
 
 ## Quarto
 
