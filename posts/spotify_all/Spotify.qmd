@@ -1,9 +1,15 @@
 ---
 title: "Spotify"
 author: "Blaise Leone"
-date: "2023-12-10"
-categories: [Spotify, code, analysis]
+date: "2023-10-30"
+categories: [spotify, code, analysis]
 image: spotify.png
+
+execute: 
+  warning: false
+  message: false
+  
+toc: true
 from: markdown+emoji
 ---
 
@@ -17,30 +23,32 @@ library(skimr)
 library(ggthemes)
 library(hrbrthemes)
 
-theme{r} #| results: asis rmarkdown::paged_table(Spotify)_set(theme_ipsum()+
+theme_set(theme_ipsum()+
           theme(strip.background =element_rect(fill="lightgray"),
                 axis.title.x  = element_text(angle = 0,
                                             size = rel(1.5),
                                             margin = margin(10,0,0,0)),
                 axis.title.y  = element_text(angle = 0,
-                     {r} #| results: asis rmarkdown::paged_table(Spotify)                       size = rel(1.5),
+                                            size = rel(1.5),
                                             margin = margin(0,10,0,0))
                 )
           )
 ```
 
+
+
 Let's analyze the `Spotify` data: :musical_note:
 
-```{r}
-#| results: asis
-rmarkdown::paged_table(Spotify) 
+
 # Data Frame
+```{r}
 library(tidyverse)
 library(skimr)
 spotify_all <- read_csv('https://bcdanl.github.io/data/spotify_all.csv')
+```
 
 # Q1a
-
+```{r}
 top_songs <- spotify_all %>%
   group_by(artist_name, track_name) %>%
   summarize(popularity = n()) %>%
@@ -52,8 +60,10 @@ top_songs
 # being, Drake, Kendrick Lamar, The Chainsmokers, DRAM, Post Malone, Migos, KYLE, 
 # Lil Uzi Vert, Amine, Khalid respectively.
 
+```
 
 # Q1b
+```{r}
 
 top_artists <- spotify_all %>%
   group_by(artist_name) %>%
@@ -76,9 +86,10 @@ most_popular_songs
 
 # This finds the most popular song for each of the five most popular artists
 # which is One Dance, Gold Digger, HUMBLE., Needed Me, and Starboy respectively.
-
+```
 
 # Q1c
+```{r}
 
 ggplot(top_songs, aes(x = artist_name, y = popularity, fill = artist_name)) +
   geom_bar(stat = "identity") +
@@ -92,17 +103,20 @@ ggplot(top_songs, aes(x = artist_name, y = popularity, fill = artist_name)) +
 # popularity above 100.
 
 
+```
 
 # Q1d
+```{r}
 
 pid_artist_df <- spotify_all %>% 
   group_by(pid, playlist_name, artist_name) %>% 
   summarise(n_artist = n_distinct(artist_name))
 
 # This creates a data frame with pid-artist level of observations
-
+```
 
 # Q1e
+```{r}
 top10_artists <- spotify_all %>%
   group_by(artist_name) %>%
   summarise(total_duration = sum(duration_ms)) %>%
@@ -115,9 +129,5 @@ ggplot(top10_artists, aes(x = reorder(artist_name, total_duration), y = total_du
        y = "Total Duration (ms)") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))
 
-
 ```
 
-# 
-
-## 

@@ -2,10 +2,10 @@
   {
     "listing": "/blog-listing.html",
     "items": [
-      "/posts/spotify_all/Spotify.html",
       "/posts/restaurant/Restaurant Inspections.html",
       "/posts/nfl_2022/nfl.html",
       "/posts/beer/beer.html",
+      "/posts/spotify_all/Spotify.html",
       "/posts/welcome/index.html"
     ]
   }
