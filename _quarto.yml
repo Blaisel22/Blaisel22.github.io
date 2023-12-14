@@ -23,8 +23,12 @@ format:
       light: cyborg
       dark: darkly
     mainfont: system-ui; 
-    highlight-style: atom-one
+    highlight-style: espresso
     css: styles.css
     toc: false
     include-after-body: target_blank.html
     
+
+execute: 
+  warning: false
+  message: false
